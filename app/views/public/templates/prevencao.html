@@ -1,0 +1,13 @@
+{% extends 'layout.html' %} {% block content %}
+<h3 class="text-center fs-4">Dicas de Prevenção</h3>
+<ul class="list-group pt-3 pb-3">
+  {% for dica in dicas_prevencao %}
+  <li class="list-group-item py-3">{{ dica }}</li>
+  {% endfor %}
+  <li class="list-group-item py-3 text-center">
+    <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/aedes-aegypti" target="_blank"
+      >Fonte: Ministério da Saúde</a
+    >
+  </li>
+</ul>
+{% endblock %}

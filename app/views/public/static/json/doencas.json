@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "nome": "DENGUE",
+            "desc": "A dengue é uma doença viral que afeta milhões de pessoas em todo o mundo. É caracterizada por febre alta, dores musculares e articulares, dor de cabeça, erupções cutâneas e fadiga. Embora geralmente não seja fatal, a dengue pode ser perigosa em alguns casos e é considerada uma preocupação de saúde pública.",
+            "sintomas": "Os sintomas da dengue incluem febre alta repentina, dor de cabeça intensa, dor atrás dos olhos, dor muscular e nas articulações, náusea, vômito, dor abdominal e erupções cutâneas. Em casos graves, pode ocorrer sangramento, queda da pressão arterial e comprometimento de órgãos vitais, como o fígado e os rins.",
+            "tratamento": "Não há tratamento específico para a dengue, mas o tratamento de suporte é importante para controlar os sintomas e prevenir complicações. O tratamento inclui repouso, ingestão de líquidos, analgésicos e antitérmicos para aliviar a dor e a febre. Em casos graves, pode ser necessária internação em hospital para controle dos sintomas e prevenção de complicações.",
+            "fonte": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue"
+        },
+        {
+            "nome": "ZIKA",
+            "desc": "O Zika é caracterizado por sintomas semelhantes aos da Dengue, mas com maior incidência de erupções cutâneas e conjuntivite. A infecção pelo Zika também está associada a complicações neurológicas e problemas congênitos. O tratamento é baseado no alívio dos sintomas e na prevenção, especialmente para mulheres grávidas.",
+            "sintomas": "Os sintomas do Zika incluem febre, dor de cabeça, dor nas articulações, erupções cutâneas, conjuntivite e dor muscular. Em muitos casos, a infecção pode ser assintomática, mas em outros pode causar sintomas leves a moderados que duram cerca de uma semana.",
+            "tratamento": "Não há tratamento específico para o Zika, e o tratamento de suporte é semelhante ao da dengue. É importante manter-se hidratado, repousar e tomar analgésicos e antitérmicos para aliviar a dor e a febre. A prevenção é fundamental para evitar a infecção pelo Zika, especialmente para mulheres grávidas, que devem evitar viajar para áreas com transmissão ativa do vírus.",
+            "fonte": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/z/zika-virus"
+        },
+        {
+            "nome": "CHIKUGUNYA",
+            "desc": "A Chikungunya causa sintomas semelhantes aos da Dengue, mas com maior intensidade nas dores articulares, que podem durar meses ou anos após a infecção. Embora geralmente não seja fatal, a Chikungunya pode ser perigosa em alguns casos e é considerada uma preocupação de saúde pública. O tratamento é baseado no alívio dos sintomas e na prevenção, principalmente através do controle do mosquito vetor.",
+            "sintomas": "Os sintomas da chikungunya incluem febre alta repentina, dor nas articulações e nos músculos, erupções cutâneas e fadiga. A dor nas articulações pode ser intensa e persistente, e em alguns casos pode durar meses ou anos após a infecção.",
+            "tratamento": "Não há tratamento específico para a chikungunya. O tratamento envolve medidas de suporte para controlar os sintomas e prevenir complicações. Os pacientes são geralmente aconselhados a descansar bastante, beber bastante água e tomar analgésicos para aliviar a dor e reduzir a febre. Em casos graves, pode ser necessária hospitalização para monitorar e tratar complicações.",
+            "fonte": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/c/chikungunya"
+        },
+        {
+            "nome": "FEBRE AMARELA",
+            "desc": "A febre amarela é uma doença infecciosa causada pelo vírus da febre amarela, que é transmitido principalmente pela picada de mosquitos infectados, incluindo o Aedes aegypti. É uma doença endêmica em várias regiões tropicais da América Latina e da África. A infecção pelo vírus da febre amarela pode variar desde uma doença leve até uma forma grave que pode ser fatal.",
+            "sintomas": "Os sintomas iniciais da febre amarela incluem febre, dor de cabeça, dor muscular, náusea, vômito e fraqueza. Em casos mais graves, a doença pode causar icterícia, hemorragia e insuficiência hepática e renal. A maioria das pessoas se recupera totalmente, mas em casos mais graves, a febre amarela pode ser fatal.",
+            "tratamento": "Não existe um tratamento específico para a febre amarela. O tratamento é focado em aliviar os sintomas, como febre e dor, e manter a pessoa hidratada. Em casos mais graves, é necessário hospitalização e suporte médico intensivo. A prevenção é a melhor forma de evitar a febre amarela, através da vacinação e do controle do mosquito transmissor.",
+            "fonte": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/f/febre-amarela"
+        }
+    ]
+}

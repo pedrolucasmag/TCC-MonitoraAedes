@@ -1,0 +1,17 @@
+{% extends "dashboard-layout.html" %} {% block municipio %}
+<span>{{municipio}}, ano de {{ano}}</span>{% endblock %} 
+{% block bairros %} {%
+for bairro in bairros %}
+<option value="{{bairro[0]}}">{{bairro[0]}}</option>
+{% endfor %} {% endblock %}
+{% block content %} 
+<div class="row">{% include "/widgets/mapa.html" %}</div>
+<div class="row">
+  {% include "/widgets/total-de-registros.html" %} {% include "/widgets/possiveis-contaminados.html"
+  %}
+</div>
+<div class="row">
+  {% include "/widgets/interesse-em-visitas.html" %} {% include "/widgets/denuncias.html" %}
+</div>
+<div class="row">{% include "/widgets/tabela.html" %}</div>
+{% endblock %}

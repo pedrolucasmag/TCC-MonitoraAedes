@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: 'Roboto', Arial;
+    line-height: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c2d3db;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 50vw;
+}
+
+.container a {
+    display: inline-block;
+    background-color: #71858F;
+    padding: 1rem;
+    border-radius: 1px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.voltar-home {
+    align-self: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 880px) {
+    .container {
+        max-width: 80vw
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+  }

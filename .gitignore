@@ -1,0 +1,7 @@
+venv
+.venv
+__pycache__/
+.vscode
+faker_db/app.db
+faker_db/Guaratingueta.db
+.env

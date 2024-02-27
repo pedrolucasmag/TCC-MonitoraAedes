@@ -1,0 +1,47 @@
+{% extends 'layout.html' %} {% block content %}
+<div class="col-md-11 mx-auto pt-3">
+  <p class="text-center">
+    O Aedes aegypti é um mosquito vetor de diversas doenças, como dengue, zika, chikungunya e febre
+    amarela. Essas doenças são transmitidas através da picada do mosquito infectado e podem ter
+    consequências graves para a saúde humana, incluindo febre, dores musculares, dor de cabeça,
+    vômitos, diarreia, hemorragias e até mesmo a morte.
+  </p>
+</div>
+<div class="accordion .accordion-flush pt-3 pb-5" id="accordionDoencas">
+  {% for doenca in doencas.data %}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading{{loop.index0}}">
+      <button
+        class="accordion-button {{'collapsed' if loop.index0 != 0 else '' }}"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse{{loop.index0}}"
+        aria-expanded="{{'true' if loop.index0 == 0 else 'false' }}"
+        aria-controls="collapse{{loop.index0}}"
+      >
+        <strong>{{doenca.nome}}</strong>
+      </button>
+    </h2>
+    <div
+      id="collapse{{loop.index0}}"
+      class="accordion-collapse collapse {{'show' if loop.index0 == 0 else '' }}"
+      aria-labelledby="heading{{loop.index0}}"
+      data-bs-parent="#accordionDoencas"
+    >
+      <div class="accordion-body">
+        <p>{{doenca.desc}}</p>
+        <hr />
+        <p><strong>Sintomas</strong>: {{doenca.sintomas}}</p>
+        <hr />
+        <p><strong>Tratamento</strong>: {{doenca.tratamento}}</p>
+        <hr />
+        <span>Para mais informações, acesse o portal do </span
+        ><a href="{{doenca.fonte}}" target="_blank">Ministério da Saúde</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %} {% block scripts %}
+<script src="static/js/doencas.js"></script>
+{% endblock %}

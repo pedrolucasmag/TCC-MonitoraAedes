@@ -1,0 +1,21 @@
+.desativado{
+    display: none;
+    height:0;
+    width:0;
+    visibility: hidden;
+    padding:0;
+    margin:0;
+    float:right;
+}
+
+.navbar-content a {
+    border-bottom: 2px solid transparent
+}
+
+.navbar-content a:hover {
+    border-bottom: 2px solid #ed9aa2
+}
+
+.navbar-content a:hover {
+    color: #ed9aa2
+}
